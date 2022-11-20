@@ -1,0 +1,27 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "Project for trying regex with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx mocha -w --parallel text/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel text/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroribeiro89/node-regex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroribeiro89/node-regex/issues"
+  },
+  "homepage": "https://github.com/pedroribeiro89/node-regex#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  }
+}
